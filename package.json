@@ -1,0 +1,26 @@
+{
+  "name": "desafiocadastro",
+  "version": "1.0.0",
+  "description": "Twitter: [@devmagro 🐦 ](https://x.com/devmagro)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guisandroni/desafioCadastro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Guisandroni/desafioCadastro/issues"
+  },
+  "homepage": "https://github.com/Guisandroni/desafioCadastro#readme",
+  "dependencies": {
+    "fastify": "^5.2.2",
+    "zod": "^3.24.2"
+  }
+}

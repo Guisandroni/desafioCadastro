@@ -59,7 +59,7 @@ Crie um arquivo chamado `formulario.txt`, que deverá conter as seguintes pergun
 
 **7 - Qual a raça do pet?**
 
-Sua aplicação deve ler o conteúdo desse arquivo `.txt` e exibir as perguntas no terminal. 
+Sua aplicação deve ler o conteúdo desse arquivo `.txt` e exibir as perguntas no terminal.
 
 **<span style="color:red">Não é permitido usar o "print" nas perguntas no código, você deverá LER o arquivo!</span>** 
 
