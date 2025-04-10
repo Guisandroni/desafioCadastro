@@ -1,7 +1,6 @@
-import { FastifyInstance } from "fastify"
-import { registerPet } from "./services/pet.ts"
+import { FastifyInstance } from "fastify";
+import { registerPet } from "./services/pet.ts";
 
-
-export const appRoutes = (app:FastifyInstance) =>{
-    app.get('/register', registerPet)
-}
+export const appRoutes = (app: FastifyInstance) => {
+  app.get("/register", registerPet);
+};

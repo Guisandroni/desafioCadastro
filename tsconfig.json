@@ -8,10 +8,10 @@
     "target": "es2022",
     "outDir": "dist",
     "paths": {
-      "@src/*":["./src/*"],
-      "@test/*":["./test/*"],
+      "@src/*": ["./src/*"],
+      "@test/*": ["./test/*"]
     },
-    "rootDirs": ["./src","./test"],
+    "rootDirs": ["./src", "./test"],
 
     "strict": true,
     "esModuleInterop": true,
@@ -22,12 +22,6 @@
     "allowJs": true,
     "noEmit": true
   },
-  "include": [
-    "./src/**/*.ts",
-    "./test/**/*.ts"
-  ],
-  "exclude": [
-    "./node_modules/*",
-    "dist"
-  ]
+  "include": ["./src/**/*.ts", "./test/**/*.ts"],
+  "exclude": ["./node_modules/*", "dist"]
 }

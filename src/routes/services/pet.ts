@@ -4,11 +4,8 @@
 // - Listar todos os pets cadastrados
 // - Listar pets por algum critério (idade, nome, raça)
 
-import { z } from "zod"
+import { z } from "zod";
 
-
-export const registerPet = () =>{
-    const paramsRegisterPet = z.object({
-        
-    })
-}
+export const registerPet = () => {
+  const paramsRegisterPet = z.object({});
+};

@@ -5,5 +5,5 @@
 // - Listar pets por algum critério (idade, nome, raça)
 import { z } from "zod";
 export const registerPet = () => {
-    const paramsRegisterPet = z.object({});
+  const paramsRegisterPet = z.object({});
 };

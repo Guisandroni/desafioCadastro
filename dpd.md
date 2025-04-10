@@ -2,8 +2,7 @@ dependencias ao iniciar o projeto
 
 typescript @types/node -D
 -g typescript
-tsc --init tsconfig.json  //configure tsconfig
-
+tsc --init tsconfig.json //configure tsconfig
 
 -g tsx OU -D tsx //tsx para rodar
 
@@ -11,8 +10,13 @@ tsx --watch src/server.ts
 
 -D @typescript-eslint/eslint-plugin eslint @typescript-eslint/parser
 npx eslint --init
-script para rodar 
+script para rodar
 eslint
 eslint --fix
 
+-D prettier
+npx prettier . --write
 
+
+config knex com ts
+rodando com tsx script 
