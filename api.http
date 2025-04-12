@@ -1,3 +1,37 @@
 
+###
+GET http://localhost:3333/animals/pet HTTP/1.1
 
-GET https://localhost:3333
+###
+POST http://localhost:3333/animals/pet/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome":"linguiça",
+    "sobrenome":"vieira",
+    "idade":8,
+    "raca":"puddle",
+    "sexo":"Macho",
+    "endereco":"vista linda, esperança, 52",
+    "peso":16.10,
+    
+}
+
+###
+DELETE  http://localhost:3333/animals/pet/13479299-6936-4963-a160-daa795d4b886 HTTP/1.1
+
+
+###
+PUT http://localhost:3333/animals/pet/5bfc5692-042e-4303-b9ed-10518363a4a6 HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome":"teste",
+    "sobrenome":"vieira",
+    "idade":10,
+    "raca":"puddle",
+    "sexo":"Macho",
+    "endereco":"vista linda, esperança, 52",
+    "peso":16.10,   
+}
+

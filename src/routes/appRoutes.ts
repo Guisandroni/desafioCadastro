@@ -1,6 +1,10 @@
 import { FastifyInstance } from "fastify";
-import { registerPet } from "./services/pet.ts";
+import { deletePet, listPets,  registerPet,  updatePet } from "./services/pet.ts";
 
 export const appRoutes = (app: FastifyInstance) => {
-  app.get("/register", registerPet);
+  app.post("/animals/pet/register", registerPet);
+  app.delete('/animals/pet/:id', deletePet)
+  app.put('/animals/pet/:id', updatePet)
+  app.post('/animals/pet/update/:id', updatePet)
+  app.get('/animals/pet', listPets)
 };
